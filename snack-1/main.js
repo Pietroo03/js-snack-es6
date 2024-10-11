@@ -21,22 +21,11 @@ const bici = [
     }
 ]
 
-let pesi = []
 
 for (let i = 0; i < bici.length; i++) {
     const element = bici [i];
 
-    /* console.log(element.peso); */
-    pesi.push(element.peso)
+    console.log(element);
     
 }
-
-console.log(pesi);
-
-let findLowest = Math.min(...pesi)
-console.log(findLowest);
-
-
-
-
 
