@@ -30,4 +30,8 @@ for (let i = 0; i < bici.length; i++) {
 
 console.log(lowestWeight);
 
+const biciLeggeraEl = document.getElementById('bici-leggera')
+
+biciLeggeraEl.innerHTML = `La bici più leggera è la ${lowestWeight.nome} che pesa ${lowestWeight.peso}Kg`
+
 
