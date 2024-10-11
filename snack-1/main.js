@@ -21,11 +21,13 @@ const bici = [
     }
 ]
 
-
+let lowestWeight = bici[0]
 for (let i = 0; i < bici.length; i++) {
-    const element = bici [i];
-
-    console.log(element);
-    
+    if (bici[i].peso < lowestWeight.peso) {
+        lowestWeight = bici[i]
+    }
 }
+
+console.log(lowestWeight);
+
 
