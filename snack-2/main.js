@@ -32,3 +32,12 @@ for (let i = 0; i < teams.length; i++) {
     teams[i].punti = Math.floor(Math.random() * 100) + 1;
     teams[i].falli = Math.floor(Math.random() * 50) + 1;
 }
+
+const nameFouls = []
+for (let i = 0; i < teams.length; i++) {
+    nameFouls.push({nome: teams[i].nome, falli: teams[i].falli })
+}
+
+console.log(teams);
+
+console.log(nameFouls);
